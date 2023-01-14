@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Finance Expert</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: "Poppins", sans-serif
+    }
+
+    body {
+      font-size: 16px;
+    }
+
+    .w3-half img {
+      margin-bottom: -6px;
+      margin-top: 16px;
+      opacity: 0.8;
+      cursor: pointer
+    }
+
+    .w3-half img:hover {
+      opacity: 1
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Sidebar/menu  -->
+  <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;"
+    id="mySidebar"><br>
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
+      style="width:100%;font-size:22px">Close Menu</a>
+    <div class="w3-container">
+      <a href="" title="Logo" target="_blank" class="w3-hover-opacity"><img src="./CompanyLogo.jpg" alt="CompanyLogo"
+          style="width:40%"></a>
+      <h3 class="w3-padding-60 w3-xxlarge w3-text-green"><b>Finance Expert</b></h3>
+    </div>
+    <div class="w3-bar-block">
+      <a href="#Home" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+
+      <a href="#About" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a>
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+      <a href="#Terms" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Terms and conditions</a>
+    </div>
+  </nav>
+
+  <!-- Top menu on small screens -->
+  <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+    <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">&#9776;</a>
+    <span><a href="" title="Logo" target="_blank" class="w3-hover-opacity "><img src="./CompanyLogo.jpg"
+          alt="CompanyLogo" style="width:7%"></a></span>
+  </header>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+    id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+    <!-- Header -->
+    <div class="w3-container" style="margin-top:80px" id="Home">
+      <h1 class="w3-jumbo"><b>Finance Expert</b></h1>
+      <h1 class="w3-xxxlarge w3-text-red"><b>Home.</b></h1>
+      <hr style="width:50px;border:5px solid red" class="w3-round">
+    </div>
+
+    <!-- Photo grid (modal) -->
+    <div class="w3-row-padding">
+      <div class="w3-half">
+        <img src="./image4.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+        <img src="./image1.jpg" style="width:100%" onclick="onClick(this)"
+          alt="Light, white and tight scandinavian design">
+
+      </div>
+
+      <div class="w3-half">
+        <img src="./image2.jpg" style="width:90%" onclick="onClick(this)" alt="Windows for the atrium">
+        <img src="./image5.jpg" style="width:90%" onclick="onClick(this)" alt="Bedroom and office in one space">
+
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- About us -->
+    <div class="w3-container" id="About" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-red"><b>About Us.</b></h1>
+      <hr style="width:50px;border:5px solid red" class="w3-round">
+      <p>
+      <h4><u>FINANCE EXPERT</u></h3>
+        </p>
+        <p> makes no commitment, representation, warranty, or guarantee as to the quality, accuracy, or performance
+          provided on or through the Website/ Mobile App/email (collectively, the Services and Information). We inform
+          our clients that if any of our representatives ask for Demat account details please do not provide as well as
+          complain about the same on our customer support number or email
+          <a href=" @customersupport@financeexperttech.com " title="E-mail" target="_blank"
+            class="w3-hover-opacity">customersupport@financeexperttech.com </a>
+          & if clients provide accounts details, Paramount Research Services is never responsible for the same & no
+          complaints will be valid regarding the same either in the case of loss or non-delivery of services. The
+          Services and Information provided on or through the Website/ Mobile App are for general guidance and
+          information purposes only and being subjected to market risk they do not in any manner indicate any assurance,
+          commitment, or opinion of any manner whatsoever.
+
+          Dear viewers, your quest of learning financial management ends here! We are a team of management graduates
+          with diversified work. We have taken it as a mission to make viewers self relian, in managing finances well,
+          own self, which is not taught in academics
+          Subscribe & grow with us through our honest wealth-creating ideas, unbiased nifty & stock market view, quarter
+          results, intraday strategy, and options strategy,& remain updated with the latest finance news
+
+          Drop your comments on any related query .pls don't mind if we couldn't respond individually. though will try
+          our level best
+
+        </p>
+    </div>
+
+    <hr>
+
+    <!-- Contact -->
+    <div class="w3-container" id="contact" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+      <hr style="width:50px;border:5px solid red" class="w3-round">
+      <P>
+      <h2>Get a Tips and guidance for educational purposes</h2>
+      <h4>we've been successfully building money in stock trading and investment with happy and content attitude and
+        will deliver you the same experience</h4>
+      <h4>Fill out the form and fill me in with the details -> </h4>
+      </P>
+      <div class="w3-light-grey w3-container w3-padding-15" style="margin-top:20px;padding-right:58px">
+        <h3>
+          <p class="w3-left">
+        </h3>
+        </p><a href="https://forms.gle/gLsoF7hwodgw7gDz7" title="Finance Expert" target="_blank"
+          class="w3-hover-opacity">Click on- @Finnance Expert</a>
+      </div>
+      <hr>
+      <div class="w3-bar w3-light-grey w3-hide-small">
+        <p class="w3-left">Finance expert contact details are
+          <a href="Financeexperttech@gmail.com" title="fa-Gmail" target="_blank" class="w3-hover-opacity"><img
+              src="./Gmail.jpg" alt="Gmail" style="width:4%"></a>
+          <a href="https://wa.me/message/NVATKXSTTBGPN1" title="fa-Whatsapp" target="_blank"
+            class="w3-hover-opacity"><img src="Whatsapp2.jpg" alt="Facebook" style="width:4%"></a>
+
+        </p>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <!-- Terms and conditions -->
+    <div class="w3-container" id="Terms" style="margin-top:75px">
+      <h1 class="w3-xxxlarge w3-text-red"><b>Terms and conditions.</b></h1>
+      <hr style="width:50px;border:5px solid red" class="w3-round">
+      <ul>
+        <ol>
+          <p>• No Refunds & Returns available</p>
+        </ol>
+        <ol>
+          <P>• All tradings are subject to risk Market</P>
+        </ol>
+        <ol>
+          <P>• Registered Company </P>
+        </ol>
+        <ol>
+          <P>• Own trade loss not covered under the company</P>
+        </ol>
+        <ol>
+          <P>• KYC Documents are required for Invoice/Bill </P>
+        </ol>
+        <ol>
+          <P>• All trading tips are provided for educational purposes only. </P>
+        </ol>
+        <ol>
+          <P> </P>
+        </ol>
+      </ul>
+    </div>
+
+    <hr>
+
+    <!-- End page content -->
+  </div>
+
+  <!-- Navigation bar with social media icons -->
+  <div class="w3-bar w3-black w3-hide-small">
+    <p class="w3-center">FOLLOW US ON...
+      <a href="" title="fa-instagram" target="_blank" class="w3-hover-opacity"><img src="./Instagram2.jpg" alt="Insta"
+          style="width:3%"></a>
+      <a href="" title="fa-facebook" target="_blank" class="w3-hover-opacity"><img src="./Facebook.png" alt="Facebook"
+          style="width:3%"></a>
+      <a href="" title="fa-Telegram" target="_blank" class="w3-hover-opacity"><img src="./Telegram.jpg" alt="Twiter"
+          style="width:3%"></a>
+    </p>
+  </div>
+
+  <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-left:400px ">
+    <p class="w3-center"> Disclaimer - We are an educational channel .all efforts are made to compile inputs after
+      details
+      research & consult your financial advisor before investing! We will not be responsible for any profit or loss as a
+      stock market investments are subject to market risk</p>
+  </div>
+
+  <!-- designer -->
+  <!--
+  <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+    <p class="w3-right">designed by <a
+        href="https://www.linkedin.com/in/akanksha-banasavade-2b00b11bb?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTU5Cswg%2BTNKRu%2F%2BK1yx1Zg%3D%3D"
+        title="W3.CSS" target="_blank" class="w3-hover-opacity"> @Akanksha..</a></p>
+  </div>
+  -->
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("myOverlay").style.display = "none";
+    }
+
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+  </script>
+
+</body>
+
+</html>
